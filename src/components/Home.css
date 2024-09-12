@@ -1,0 +1,68 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tabs-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 660px;
+    background-color: rgb(12, 12, 12);
+    height: 40px;
+    color: white;
+    border-radius: 8px;
+    
+
+}
+
+.tabs{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-right: 16px */
+
+}
+
+.list-items{
+    height: 600px;
+    width: 660px;
+    background-color: aliceblue;
+    
+}
+
+.item{
+    width: 600px;
+    background-color: rgb(179, 181, 188);
+    padding: 6px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.exp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+}
